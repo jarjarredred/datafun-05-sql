@@ -1,4 +1,6 @@
-# datafun-04-eda Summer 1 - module 4
+# datafun-05-sql Summer 1 - module 5
+
+## Step 1: Initiated project
 
 ## CheatSheet: Managing Virtual Environment
 
