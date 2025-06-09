@@ -3,15 +3,17 @@
 ## Step 1: Initiated project
 
 ## Step 2: Created necessary files: sql and py
-
+![alt text](image-3.png)
 ## Step 3: Plan and add sql files
 SQL schema is based on author_id key in the authors.csv table.
 Updated delete_records.sql and update_records.sql.
 Updated db02_features.py
 
 ## Step 4: Create queries
-
+![alt text](image-2.png)
 ## Step 5: Run queries
+![alt text](image-1.png)
+
 
 ## CheatSheet: Managing Virtual Environment
 
