@@ -12,3 +12,23 @@
 2025-06-05 22:49:10.528 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\01_new_column_pub_age.sql
 2025-06-05 22:49:10.529 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
 2025-06-05 22:49:10.529 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-08 22:49:03.122 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-08 22:49:03.123 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-08 22:49:03.125 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-06-08 22:49:03.129 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Repos\datafun-05-sql\sql_features\01_new_column_pub_age.sql: duplicate column name: author_age_at_publication
+2025-06-08 22:49:03.130 | ERROR    | __main__:main:60 - Error during feature queries execution: duplicate column name: author_age_at_publication
+2025-06-08 22:49:03.130 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-08 22:52:16.174 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-08 22:52:16.174 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-08 22:52:16.175 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-06-08 22:52:16.194 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\delete_records.sql
+2025-06-08 22:52:16.200 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Repos\datafun-05-sql\sql_features\update_records.sql: no such table: author
+2025-06-08 22:52:16.200 | ERROR    | __main__:main:60 - Error during feature queries execution: no such table: author
+2025-06-08 22:52:16.201 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-08 22:52:42.231 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-08 22:52:42.231 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-06-08 22:52:42.233 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-06-08 22:52:42.236 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\delete_records.sql
+2025-06-08 22:52:42.249 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Repos\datafun-05-sql\sql_features\update_records.sql: duplicate column name: author_number_of_books
+2025-06-08 22:52:42.250 | ERROR    | __main__:main:60 - Error during feature queries execution: duplicate column name: author_number_of_books
+2025-06-08 22:52:42.250 | INFO     | __main__:main:63 - Database connection closed.
