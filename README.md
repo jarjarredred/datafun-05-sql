@@ -2,6 +2,17 @@
 
 ## Step 1: Initiated project
 
+## Step 2: Created necessary files: sql and py
+
+## Step 3: Plan and add sql files
+SQL schema is based on author_id key in the authors.csv table.
+Updated delete_records.sql and update_records.sql.
+Updated db02_features.py
+
+## Step 4: Create queries
+
+## Step 5: Run queries
+
 ## CheatSheet: Managing Virtual Environment
 
 For **Windows PowerShell** (adjust commands if using Mac/Linux):

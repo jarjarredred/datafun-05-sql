@@ -52,4 +52,4 @@ INSERT INTO books (book_id, title, genre, publication_year, author_id) VALUES
     ('BOOK_015', 'A Tale of Two Cities', 'Historical Fiction', 1859, 'AUTHOR_008'),
     ('BOOK_016', 'Great Expectations', 'Fiction', 1861, 'AUTHOR_008'),
     ('BOOK_017', 'The Hobbit', 'Fantasy', 1937, 'AUTHOR_009'),
-    ('BOOK_018', 'The Lord of the Rings', 'Fantasy', 1954, 'AUTHOR_009'), 
+    ('BOOK_018', 'The Lord of the Rings', 'Fantasy', 1954, 'AUTHOR_009');

@@ -56,7 +56,7 @@ def main() -> None:
     SQL_QUERIES_FOLDER = ROOT_DIR.joinpath("sql_queries")
     DATA_FOLDER = ROOT_DIR.joinpath("data")
     SQL_OUTPUT_FOLDER = ROOT_DIR.joinpath("sql_output")  # New output folder
-    DB_PATH = DATA_FOLDER.joinpath('project.sqlite3')
+    DB_PATH = DATA_FOLDER.joinpath('db.sqlite')
 
     # Ensure folders exist
     DATA_FOLDER.mkdir(exist_ok=True)

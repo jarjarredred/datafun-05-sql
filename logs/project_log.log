@@ -32,3 +32,53 @@
 2025-06-08 22:52:42.249 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Repos\datafun-05-sql\sql_features\update_records.sql: duplicate column name: author_number_of_books
 2025-06-08 22:52:42.250 | ERROR    | __main__:main:60 - Error during feature queries execution: duplicate column name: author_number_of_books
 2025-06-08 22:52:42.250 | INFO     | __main__:main:63 - Database connection closed.
+2025-06-08 23:00:20.257 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-08 23:00:20.257 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-08 23:00:20.258 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-06-08 23:00:20.288 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-06-08 23:00:20.294 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\02_create_tables.sql
+2025-06-08 23:00:20.297 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Repos\datafun-05-sql\sql_create\03_insert_records.sql: incomplete input
+2025-06-08 23:00:20.298 | ERROR    | __main__:main:62 - Error during database setup: incomplete input
+2025-06-08 23:00:20.298 | INFO     | __main__:main:65 - Database connection closed.
+2025-06-08 23:01:10.108 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-08 23:01:10.109 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-08 23:01:10.111 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-06-08 23:01:10.127 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-06-08 23:01:10.137 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\02_create_tables.sql
+2025-06-08 23:01:10.164 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\03_insert_records.sql
+2025-06-08 23:01:10.165 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-06-08 23:01:10.165 | INFO     | __main__:main:65 - Database connection closed.
+2025-06-08 23:01:48.924 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-08 23:01:48.924 | INFO     | __main__:main:52 - Starting query execution...
+2025-06-08 23:01:48.926 | INFO     | __main__:main:68 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-08 23:01:48.927 | ERROR    | __main__:execute_and_save_query:27 - Failed to execute/save C:\Repos\datafun-05-sql\sql_queries\query_aggreggation.sql: Execution failed on sql 'SELECT a.name AS author_name, COUNT(b.book_id) AS book_count
+FROM authors a
+LEFT JOIN books b ON a.author_id = b.author_id
+GROUP BY a.name;': no such table: authors
+2025-06-08 23:01:48.927 | ERROR    | __main__:main:75 - Error during execution: Execution failed on sql 'SELECT a.name AS author_name, COUNT(b.book_id) AS book_count
+FROM authors a
+LEFT JOIN books b ON a.author_id = b.author_id
+GROUP BY a.name;': no such table: authors
+2025-06-08 23:01:48.927 | INFO     | __main__:main:78 - Database connection closed.
+2025-06-08 23:04:08.322 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-08 23:04:08.323 | INFO     | __main__:main:52 - Starting query execution...
+2025-06-08 23:04:08.324 | INFO     | __main__:main:68 - Connected to database: C:\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-08 23:04:08.325 | ERROR    | __main__:execute_and_save_query:27 - Failed to execute/save C:\Repos\datafun-05-sql\sql_queries\query_aggreggation.sql: Execution failed on sql 'SELECT a.name AS author_name, COUNT(b.book_id) AS book_count
+FROM authors a
+LEFT JOIN books b ON a.author_id = b.author_id
+GROUP BY a.name;': no such table: authors
+2025-06-08 23:04:08.326 | ERROR    | __main__:main:75 - Error during execution: Execution failed on sql 'SELECT a.name AS author_name, COUNT(b.book_id) AS book_count
+FROM authors a
+LEFT JOIN books b ON a.author_id = b.author_id
+GROUP BY a.name;': no such table: authors
+2025-06-08 23:04:08.326 | INFO     | __main__:main:78 - Database connection closed.
+2025-06-08 23:05:46.378 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-06-08 23:05:46.379 | INFO     | __main__:main:52 - Starting query execution...
+2025-06-08 23:05:46.380 | INFO     | __main__:main:68 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-06-08 23:05:46.400 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_aggreggation.sql → C:\Repos\datafun-05-sql\sql_output\query_aggreggation.csv
+2025-06-08 23:05:46.403 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_filter.sql → C:\Repos\datafun-05-sql\sql_output\query_filter.csv
+2025-06-08 23:05:46.406 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_group_by.sql → C:\Repos\datafun-05-sql\sql_output\query_group_by.csv
+2025-06-08 23:05:46.408 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_join.sql → C:\Repos\datafun-05-sql\sql_output\query_join.csv
+2025-06-08 23:05:46.412 | INFO     | __main__:execute_and_save_query:24 - Executed and saved: C:\Repos\datafun-05-sql\sql_queries\query_sorting.sql → C:\Repos\datafun-05-sql\sql_output\query_sorting.csv
+2025-06-08 23:05:46.412 | INFO     | __main__:main:73 - Query execution and saving completed successfully.
+2025-06-08 23:05:46.413 | INFO     | __main__:main:78 - Database connection closed.
